@@ -1,0 +1,15 @@
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\bin\Debug\net6.0\Construct-Inheritance.exe
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\bin\Debug\net6.0\Construct-Inheritance.deps.json
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\bin\Debug\net6.0\Construct-Inheritance.runtimeconfig.json
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\bin\Debug\net6.0\Construct-Inheritance.dll
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\bin\Debug\net6.0\Construct-Inheritance.pdb
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.AssemblyInfo.cs
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.dll
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\refint\Construct-Inheritance.dll
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.pdb
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\Construct-Inheritance.genruntimeconfig.cache
+C:\Users\HP\Desktop\Construct-Inheritance\Construct-Inheritance\obj\Debug\net6.0\ref\Construct-Inheritance.dll
