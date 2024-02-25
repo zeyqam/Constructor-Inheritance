@@ -85,5 +85,46 @@ using Construct_Inheritance;
 
 //Person person = new(1,"Hacixan Hacixanov",19,"Student");
 //Console.WriteLine(person.fullName);
-Person person = new Person("Azerbaycan","Turkiye");
+//Person person = new Person("Azerbaycan","Turkiye");
 
+Person person1 = new Person()
+{
+    id = 1,
+    fullName = "Ilqar Shireyev",
+    age = 26
+};
+Person person2 = new Person()
+{
+    id = 2,
+    fullName = "Reshad Agayev",
+    age = 22
+};
+Person person3 = new Person()
+{
+    id = 3,
+    fullName = "Nurlan Umudov",
+    age = 23
+};
+Person person4 = new Person()
+{
+    id = 4,
+    fullName = "Elmir Shireyev",
+    age = 21
+};
+
+Person[] people = {person1 , person2 , person3 , person4 };
+Person FindStudentById(Person[]people, int id)
+{
+    return people.FirstOrDefault(m=>m.id == id);
+    
+}
+Person result=FindStudentById(people, 100);
+if (result != null)
+{
+    string response = $"id:{result.id} Fullname:{result.fullName} Age: {result.age}";
+    Console.WriteLine(response);
+}
+else
+{
+    Console.WriteLine("Data not found");
+}

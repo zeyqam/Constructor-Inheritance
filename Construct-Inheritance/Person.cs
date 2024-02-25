@@ -11,7 +11,7 @@ namespace Construct_Inheritance
         public int id;
         public string fullName;
         public int age;
-        public string position;
+        //public string position;
 
         //public Person(int id,string fullName,int age,string position)
 
@@ -21,23 +21,23 @@ namespace Construct_Inheritance
         //    this.age = age;
         //    this.position = position;
         //}
-        public Person():this("Sirac")
-        {
-            Console.WriteLine("Hello Behruz bey");
-        }
-        public Person(string data):this(100)
-        {
-            Console.WriteLine(data);
-        }
-        public Person(int num)
-        {
-            Console.WriteLine("num");
-        }
-        public Person(string text,string s):this(text)
-        {
-            Console.WriteLine("Elmir bey");
+        //public Person():this("Sirac")
+        //{
+        //    Console.WriteLine("Hello Behruz bey");
+        //}
+        //public Person(string data):this(100)
+        //{
+        //    Console.WriteLine(data);
+        //}
+        //public Person(int num)
+        //{
+        //    Console.WriteLine("num");
+        //}
+        //public Person(string text,string s):this(text)
+        //{
+        //    Console.WriteLine("Elmir bey");
             
-        }
+        //}
 
 
     }
