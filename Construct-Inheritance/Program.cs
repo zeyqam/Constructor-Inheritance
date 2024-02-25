@@ -33,3 +33,45 @@ void PrintEmployeesOlderThan( int age,Employee [] employees)
     }
 }
 PrintEmployeesOlderThan(25, employees);
+
+
+int CountEmplyeeBetweenAges( Employee[] employees, int startAge,int endAge) 
+{int count = 0;
+
+    foreach(Employee emp in employees)
+    {
+        if (emp.Age >= startAge && emp.Age <= endAge)
+        {
+            count++;
+        }
+    }
+    return count;
+
+}
+int count=CountEmplyeeBetweenAges(employees,20,30);
+Console.WriteLine("20 ve 30 arasinda olan telebelerin sayi: " + count);
+
+int GetTotalAgeOfEmployees(Employee[] employees)
+{
+    int totalAge=0; 
+    foreach(Employee emp in employees)
+    {
+        totalAge+= emp.Age;
+    }
+    return totalAge;
+}
+int totalAge=GetTotalAgeOfEmployees(employees);
+Console.WriteLine("butun employeelerin yashin cemi: " + totalAge);
+
+void PrintEmployeesWithEmailStartingWith(string prefix, Employee[] employees)
+{
+    Console.WriteLine("Emaili'"+prefix +"' ile baslayan employeeler:");
+    foreach(Employee emp in employees)
+    {
+        if (emp.Email.StartsWith(prefix))
+        {
+            Console.WriteLine(emp.Name + " " + emp.Surname + "-" + emp.Email);
+        }
+    }
+}
+PrintEmployeesWithEmailStartingWith("a",employees);

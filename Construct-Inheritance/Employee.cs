@@ -8,12 +8,12 @@ namespace Construct_Inheritance
 {
     public class Employee
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public string Surname { get; set; }
-        public string Address { get; set; }
-        public string Email { get ; set; }
-        public int Age { get; set; }
+        public int Id;
+        public string Name;
+        public string Surname;
+        public string Address;
+        public string Email;
+        public int Age;
 
 
 
